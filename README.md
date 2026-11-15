@@ -6,6 +6,12 @@
 Python / PySide6 版 LiteDesktopStudio を、Core i5 級の低スペック機でも常駐できるように
 C++17 / Qt6 Widgets で作り直した軽量版です。
 
+## スクリーンショット
+
+<img src="https://raw.githubusercontent.com/CrossDarkrix/Ultra-Lite-Desktop-Studio/refs/heads/main/Images/screenshot1.png" width="300px" height="250px">
+<img src="https://raw.githubusercontent.com/CrossDarkrix/Ultra-Lite-Desktop-Studio/refs/heads/main/Images/screenshot2.png" width="300px" height="250px">
+
+
 ## 軽さの仕組み
 
 - Qt **Widgets のみ**。WebEngine (Chromium)・OpenGL・numpy・psutil・soundcard・pycaw・winsdk は不使用

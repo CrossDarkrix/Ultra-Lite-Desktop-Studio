@@ -1,0 +1,23 @@
+# Build output
+build/
+build-*/
+*.zip
+
+# Built media helpers (Nuitka onedir output; build from helper/*.py)
+helper/MediaHelper/
+helper/MediaControlHelper/
+__pycache__/
+*.pyc
+
+# Local runtime files (created next to the exe / in the home dir)
+LiteDesktopStudio_config.json
+LiteDesktopStudio_debug.log
+LiteDesktopStudio_debug.log.old
+LiteDesktopStudio_singleton.lock
+LiteDesktopStudio_jshtml_widgets/
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
